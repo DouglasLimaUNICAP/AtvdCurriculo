@@ -1,0 +1,61 @@
+/* Estilo para o botão 'Para Cima' */
+.back-to-top {
+    position: fixed; /* Fixa o botão na tela */
+    top: 20px; /* Distância do topo */
+    left: 50%; /* Alinha no meio da tela */
+    transform: translateX(-50%); /* Ajuste para centralizar perfeitamente */
+    padding: 10px 20px; /* Tamanho do botão */
+    background-color: green; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px;
+    cursor: pointer; /* Muda o cursor para 'mão' ao passar em cima */
+  }
+  
+  .back-to-top:hover {
+    background-color: darkgreen; /* Cor do botão ao passar o mouse */
+  }
+  
+  /* Estilo para o conteúdo do portfólio */
+  .portfolio-content {
+    margin-top: 60px; /* Garante que o conteúdo não sobreponha o botão */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .portfolio-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .portfolio-content h2 {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+  
+  .portfolio-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .portfolio-content li {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .portfolio-content a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .portfolio-content a:hover {
+    text-decoration: underline;
+  }
+  
